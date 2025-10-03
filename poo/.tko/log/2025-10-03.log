@@ -1,0 +1,30 @@
+2025-10-03 20:32:58, MOVE, v:1, k:toalha, mode:PICK
+2025-10-03 20:32:59, EXEC, v:1, k:toalha, mode:LOCK, rate:0, size:47
+2025-10-03 20:33:09, EXEC, v:1, k:toalha, mode:LOCK, rate:0, size:47
+2025-10-03 20:33:43, EXEC, v:1, k:toalha, mode:LOCK, rate:0
+2025-10-03 20:33:58, EXEC, v:1, k:toalha, mode:LOCK, rate:0
+2025-10-03 20:34:48, EXEC, v:1, k:toalha, mode:LOCK, rate:0, size:46
+2025-10-03 20:38:32, EXEC, v:1, k:toalha, mode:LOCK, rate:0, size:47
+2025-10-03 20:38:34, MOVE, v:1, k:toalha, mode:BACK
+2025-10-03 20:38:36, MOVE, v:1, k:enxugar, mode:PICK
+2025-10-03 20:38:37, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:47
+2025-10-03 20:38:52, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:47
+2025-10-03 20:39:14, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:47
+2025-10-03 20:39:47, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:47
+2025-10-03 20:39:56, EXEC, v:1, k:enxugar, mode:FULL, rate:10, size:47
+2025-10-03 20:40:11, EXEC, v:1, k:enxugar, mode:FULL, rate:20
+2025-10-03 20:41:32, EXEC, v:1, k:enxugar, mode:FULL, rate:10, size:50
+2025-10-03 20:42:22, EXEC, v:1, k:enxugar, mode:FULL, rate:30, size:53
+2025-10-03 20:42:38, EXEC, v:1, k:enxugar, mode:FULL, rate:20, size:53
+2025-10-03 20:43:36, EXEC, v:1, k:enxugar, mode:FULL, rate:20
+2025-10-03 20:43:44, EXEC, v:1, k:enxugar, mode:FULL, rate:20, size:53
+2025-10-03 20:44:03, EXEC, v:1, k:enxugar, mode:FULL, rate:40, size:53
+2025-10-03 20:44:14, EXEC, v:1, k:enxugar, mode:FULL, rate:40
+2025-10-03 20:44:26, EXEC, v:1, k:enxugar, mode:FULL, rate:50, size:53
+2025-10-03 20:45:35, EXEC, v:1, k:enxugar, mode:FULL, rate:50
+2025-10-03 20:47:56, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:53
+2025-10-03 20:48:08, EXEC, v:1, k:enxugar, mode:FULL, rate:90, size:53
+2025-10-03 20:49:02, EXEC, v:1, k:enxugar, mode:FULL, rate:100, size:54
+2025-10-03 20:49:06, MOVE, v:1, k:enxugar, mode:BACK
+2025-10-03 20:49:36, SELF, v:1, k:enxugar, rate:100, human:_amigo, alone:8, study:30
+2025-10-03 20:49:58, SELF, v:1, k:toalha, rate:100, alone:10, study:25

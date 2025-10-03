@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-03_20-32-59",
+            "content": "@@ -690,17 +690,16 @@\n f main()\n-:\n %0A    toa\n",
+            "lines": "47"
+        },
+        {
+            "label": "2025-10-03_20-33-09",
+            "content": "@@ -758,24 +758,52 @@\n $%22, end=%22%22)%0A\n+        line: str = input()%0A\n         args\n",
+            "lines": "47"
+        },
+        {
+            "label": "2025-10-03_20-34-48",
+            "content": "@@ -766,36 +766,8 @@\n %22%22)%0A\n-        line: str = input()%0A\n     \n",
+            "lines": "46"
+        },
+        {
+            "label": "2025-10-03_20-38-32",
+            "content": "class Towel:\n    def __init__(self, color: str, size:str):\n        self.color: str = color\n        self.size: str = color\n        self.wetness: int = 0\n\n    def dry(self, amount: int):\n        self.wetness += amount\n        if self.wetness > selfgetMaxWetness():\n            print(\"Toalha encharcada\")\n            self.wetness = selfgetMaxWetness\n\n    def WringOut(self):\n        self.wetness = 0\n\n    def getMaxWetness(self):\n        if self.size == \"P\":\n            return 10\n        elif self.size == \"M\":\n            return 20\n        elif self.size == \"G\":\n            return 30\n\n    def __str__(self):\n        return f\"Cor:{self.color}, Tamanho{self.size}, Umidade{self.wetness}\"\n\ndef main():\n    toalha = Towel(\"\", \"\")\n    while True:\n        print(\"$\", end=\"\")\n        line: str = input()\n        args: list[str] = line.split(\" \")\n\n        if args[0] == \"end\":\n            break\n        elif args[0] == \"new\":\n            color = args[1]\n            size = args[2]\n            toalha = Towel(color, size)\n        elif args[0] == \"show\":\n            print (toalha)\n        elif args[0] == \"dry\":\n            amount = (int(args[1]))\n            toalha.dry(amount)\n        else:\n            print(\"fail: comando desconhecido\")\nmain()",
+            "lines": "47"
+        }
+    ]
+}
