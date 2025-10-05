@@ -11,6 +11,9 @@ expanded:
 - configuracao-e-aquecimento
 tasks:
   toalha: '{rate:100, alone:10, study:25}'
+  animal: '{rate:100, guide:_video_aula, alone:9, study:40}'
+  carro: '{rate:100, alone:10, study:45}'
+  calculadora: '{rate:100, alone:10, study:30}'
   enxugar: '{rate:100, human:_amigo, alone:8, study:30}'
 flags:
   quests: 0
@@ -18,4 +21,4 @@ flags:
   tasks: 0
   graph: 0
   xray: 0
-index: toalha
+index: carro
