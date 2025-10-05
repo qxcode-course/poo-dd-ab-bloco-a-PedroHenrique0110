@@ -11,3 +11,8 @@
 2025-10-05 00:29:43, MOVE, v:1, k:calculadora, mode:BACK
 2025-10-05 00:29:51, SELF, v:1, k:calculadora, rate:100, alone:10, study:30
 2025-10-05 00:30:03, SELF, v:1, k:carro, rate:100, alone:10, study:45
+2025-10-05 15:21:15, MOVE, v:1, k:toalha, mode:PICK
+2025-10-05 15:21:17, EXEC, v:1, k:toalha, mode:LOCK, rate:0, size:47
+2025-10-05 15:22:19, MOVE, v:1, k:toalha, mode:BACK
+2025-10-05 15:22:48, MOVE, v:1, k:toalha, mode:PICK
+2025-10-05 15:22:48, EXEC, v:1, k:toalha, mode:LOCK, rate:0
